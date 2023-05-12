@@ -229,7 +229,7 @@ function updateGabor(){
     rr = gabor.toDataURL("image/png").split(';base64,')[1];
     document.getElementById("gabor-vr").setAttribute("material", "src", "url(data:image/png;base64," + rr + ")");
     document.getElementById("bottom-text").setAttribute("text", "value", "Press A if you can see, B if you can't see");
-    document.getElementById("bottom-text").setAttribute("position", "0 -25 -150");
+    document.getElementById("bottom-text").setAttribute("position", "0 -50 -150");
 }
 
 
@@ -483,7 +483,7 @@ async function newTrial(response) {
             rr = gabor.toDataURL("image/png").split(';base64,')[1];
             document.getElementById("gabor-vr").setAttribute("material", "src", "url(data:image/png;base64," + rr + ")");
             document.getElementById("bottom-text").setAttribute("text", "value", "Press A if you can see, B if you can't see");
-            document.getElementById("bottom-text").setAttribute("position", "0 -25 -150");
+            document.getElementById("bottom-text").setAttribute("position", "0 -50 -150");
 
             acceptingResponses = true;
             if ($("#fixed-position").prop("checked")) {
