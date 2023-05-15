@@ -122,7 +122,7 @@ $(document).ready(function () {
     max_freq = parseFloat($("#max-frequency").val())/26;
     step_freq= parseFloat($("#step-frequency").val())/26;
 
-    var gabor = createGabor(100, frequency, 0, 10, 0.5, 1);
+    var gabor = createGabor(100, frequency, 0, std, 0.5, 1);
 
     $("#gabor").append(gabor);
     rr = gabor.toDataURL("image/png").split(';base64,')[1];
@@ -475,19 +475,6 @@ function createGabor(side, freq, orientation, stdev, phase, contrast) {
     }
     ctx.putImageData(idata, 0, 0);
     return gabor;
-}
-
-function contrastImage(imageData, contrast) {
-
-    var data = imageData.data;
-    var factor = (259 * (contrast + 255)) / (255 * (259 - contrast));
-
-    for (var i = 0; i < data.length; i += 4) {
-        data[i] = factor * (data[i] - 128) + 128;
-        data[i + 1] = factor * (data[i + 1] - 128) + 128;
-        data[i + 2] = factor * (data[i + 2] - 128) + 128;
-    }
-    return imageData;
 }
 
 async function newTrial(response) {
