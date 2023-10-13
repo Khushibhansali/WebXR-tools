@@ -1,4 +1,4 @@
-![image](https://github.com/Khushibhansali/WebXR-tools/assets/30347957/0cd30f3d-c37f-4eaa-addc-58280abb60e6)# WebXR-tools
+## WebXR-tools
 
 This page contains a few tools and concepts for the use of WebVR in regulatory science.
 
