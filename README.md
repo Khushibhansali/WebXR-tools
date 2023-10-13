@@ -2,7 +2,7 @@
 
 This page contains a few tools and concepts for the use of WebVR in regulatory science.
 
-The two notable tools are the [Contrast Sensitivity Tool]: (https://khushibhansali.github.io/WebXR-tools/exp-detection-contrast-sensitivity/) and the [Detection Tool](https://khushibhansali.github.io/WebXR-tools/exp-detection-yes-no/)
+The two notable tools are the [Contrast Sensitivity Tool](https://khushibhansali.github.io/WebXR-tools/exp-detection-contrast-sensitivity/) and the [Detection Tool](https://khushibhansali.github.io/WebXR-tools/exp-detection-yes-no/).
 
 
 The purpose of these experiments is to observe the perceptual performance of participant when factors like gabor size, standard deviation, frequency, and position are changed. There are 2 types of experiments to try.
