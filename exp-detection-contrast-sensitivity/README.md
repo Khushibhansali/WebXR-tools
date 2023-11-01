@@ -21,6 +21,8 @@ The shift is the distance between targets when they move over 9 positions which 
 ### Controllers
 **Currently, the only controllers that are supported are the Oculus Quest 2.** 
 
+If interested, you may test the connection of the controllers and the headset pairing with this [tool](https://github.com/brendanc490/WebVR-Test-Patterns).
+
 #### Right Controller Bindings
 ![plot](../Images/controller.PNG)
 
