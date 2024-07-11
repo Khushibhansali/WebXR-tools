@@ -6,7 +6,7 @@ This page contains a few tools and concepts for the use of WebVR in regulatory s
 The direct link to the different tools are here:
 - [Contrast Sensitivity Tool](https://khushibhansali.github.io/WebXR-tools/exp-detection-contrast-sensitivity/)
 - [Detection Tool](https://khushibhansali.github.io/WebXR-tools/exp-detection-yes-no/)
-- [Staircase Contrast Sensitivity Tool]((https://khushibhansali.github.io/WebXR-tools/stairs/)
+- [Staircase Contrast Sensitivity Tool](https://khushibhansali.github.io/WebXR-tools/stairs/)
 
 
 The purpose of these experiments is to observe the perceptual performance of participant when factors like gabor size, standard deviation, frequency, and position are changed. There are 3 types of experiments to try.
