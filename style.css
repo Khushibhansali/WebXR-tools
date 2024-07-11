@@ -70,6 +70,16 @@ input[type=text]{
   float:right;
 }
 
+input[type=number]{
+  width:55px;
+  text-align: center;
+  background:rgb(34, 34, 34);
+  border: 1px solid rgb(138, 138, 138);
+  color:white;
+  float:right;
+  margin-left:5px;
+}
+
 input[type=checkbox]{
   float:right;
   width:55px;
