@@ -33,6 +33,7 @@ The purpose of these experiments is to observe the perceptual performance of par
 
 ## To download the repositiory follow these steps:
 1. Click on the green code button between add file button and about section. 
-2. Download the repositiory as a zip file or use the command line, navigate to destination folder (cd command), and type git clone https://github.com/Khushibhansali/WebXR-tools.git
+2. Download the repositiory as a zip file or use the command line, navigate to destination folder (cd command), and type ```git clone https://github.com/Khushibhansali/WebXR-tools.git```
 3. Open the index.html to modify the contents of the webpage. 
-4. Open scripts.js to change any logic from the experiments. 
+4. Open scripts.js to change any logic from the experiments.
+5. The lib folder is nessecary for Aframe dependencies.
